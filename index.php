@@ -1,3 +1,4 @@
+include_once createtable.php
 <html>
 <head>
 <Title>Registration Form</Title>
