@@ -42,8 +42,8 @@ name="submit" value="Submit" />
 <?php
 // DB connection info
 $host = "localhost\sqlexpress";
-$user = "admon";
-$pwd = "Parfenov25";
+$user = "user name";
+$pwd = "password";
 $db = "registration";
 // Connect to database.
 try {
