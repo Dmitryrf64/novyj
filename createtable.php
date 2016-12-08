@@ -5,7 +5,7 @@ $user = "user name";
 $pwd = "password";
 $db = "registration";
 try {
-    $conn = new PDO("sqlsrv:server = tcp:server22.database.windows.net,1433; Database = Base22", "admon", "{your_password_here}");
+    $conn = new PDO("sqlsrv:server = tcp:server22.database.windows.net,1433; Database = Base22", "admon", "{Parfenov25}");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {
