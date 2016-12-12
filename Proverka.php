@@ -23,6 +23,9 @@ border: 0 none; }
 </head>
 <body>
 <h1> Проверка логина и пароля из базы </h1>
-    <p>Fill in your name and 
-email address, then click <strong>Submit</strong> 
-to register.</p>
+   Name  <input type="text" 
+name="name" id="name"/></br>
+      Email <input type="text" 
+name="email" id="email"/></br>
+      <input type="submit" 
+name="submit" value="Submit"
