@@ -21,3 +21,5 @@ margin-bottom: 0; padding-bottom: 0; }
 border: 0 none; }
 </style>
 </head>
+<body>
+<h1> Проверка логина и пароля из базы </h1>
