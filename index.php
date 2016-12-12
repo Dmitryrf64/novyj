@@ -43,7 +43,7 @@ $pwd = "password";
 $db = "registration";
 // Connect to database.
 try {
-    $conn = new PDO("sqlsrv:server = tcp:registration123.database.windows.net,1433; Database = registration", "amary-17", "{Scfe4zdg}");
+    $conn = new PDO("sqlsrv:server = tcp:registration123.database.windows.net,1433; Database = registration", "admon", "{Parfenov25}");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {
